@@ -4,7 +4,16 @@ A smart resume builder powered by the MERN stack with real-time editing and live
 
 ## 🔗 Live Demo
 [https://airesbuilder.vercel.app](https://airesbuilder.vercel.app)
+## 📸 Screenshots
 
+### Home Page
+![Home](screenshots/pic1aires.png)
+
+### Dashboard
+![Dashboard](screenshots/pic2aires.png)
+
+### Edit Resume
+![Edit Resume](screenshots/pic3aires.png)
 ## 🛠️ Tech Stack
 - **Frontend:** React, Vite, Tailwind CSS
 - **Backend:** Node.js, Express

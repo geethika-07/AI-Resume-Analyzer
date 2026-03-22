@@ -1,16 +1,48 @@
-# React + Vite
+# AI Resume Builder 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A smart resume builder powered by the MERN stack with real-time editing and live preview.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
+[https://airesbuilder.vercel.app](https://airesbuilder.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Frontend:** React, Vite, Tailwind CSS
+- **Backend:** Node.js, Express
+- **Database:** MongoDB, Mongoose
+- **Authentication:** Clerk
+- **Deployment:** Vercel
 
-## React Compiler
+## ✨ Features
+- Google authentication via Clerk
+- Create, edit and delete resumes
+- Real-time live preview while editing
+- Responsive and minimal UI
+- REST API backend
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Getting Started
 
-## Expanding the ESLint configuration
+### Frontend
+```bash
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+```bash
+cd server
+npm install
+node index.js
+```
+
+### Environment Variables
+
+**Root `.env`:**
+```
+VITE_CLERK_PUBLISHABLE_KEY=your_clerk_key
+```
+
+**`server/.env`:**
+```
+PORT=5000
+MONGO_URI=your_mongodb_uri
+```
